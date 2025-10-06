@@ -1,0 +1,23 @@
+.controls label {
+  margin: 7px 0 5px 0;  /* redus margin de sus și jos pentru aliniere mai bună */
+  width: 80%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.95em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px; /* spațiu între text și slider */
+}
+
+.results {
+  flex-grow: 1;
+  background: #e8f4f8;
+  border-radius: 5px;
+  padding: 8px 10px 12px 10px; /* coborât puțin paddingul jos */
+  white-space: pre-wrap;
+  font-family: monospace;
+  overflow-y: auto;
+  font-size: 0.9em;
+}
